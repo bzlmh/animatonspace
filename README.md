@@ -4,17 +4,7 @@
 
 ## 📌 Abstract
 
-Infographic charts are widely used alongside textual content to enhance information communication in real-world scenarios (e.g., digital newspapers). In such contexts, animations are often employed to guide the audience’s attention toward chart regions relevant to the accompanying text. 
-
-While numerous automatic animation generation methods have been proposed to reduce the time and effort required for creating such animations, most are designed for simple charts and fail to capture the complex animation patterns inherent in infographic charts (e.g., nested and coordinated animations).
-
-To address this limitation, we collected a dataset of **1,082 infographic chart animations** from reputable sources. Through in-depth analysis with domain experts, we constructed a comprehensive design space consisting of four key dimensions: **Message**, **Scene**, **Character**, and **Plot**, which effectively characterize infographic animation patterns.
-
-Based on this design space, we propose **InfoDirector**, an interactive system for generating infographic chart animations conditioned on input text. To support accurate element parsing, we further annotated **2,827 infographic charts** and fine-tuned a pretrained detection model, achieving **state-of-the-art performance**.
-
-Finally, a comprehensive user study involving **60 participants** demonstrates that our approach significantly outperforms baseline methods in terms of **data comprehension**, **expressiveness**, and **visual attractiveness**.
-
----
+Infographic charts are widely used alongside textual content to enhance information communication in real-world scenarios (e.g., digital newspapers), where animations are often employed to guide the audience’s attention toward chart regions relevant to the accompanying text. While numerous automatic animation generation methods have been proposed to reduce the time and effort required for creating such animations, most are designed for simple charts and fail to capture the complex animation patterns inherent in infographic charts (e.g., nested and coordinated animations). To address this limitation, we collected a dataset of **1,082 infographic chart animations** from reputable sources and, through in-depth analysis with domain experts, constructed a comprehensive design space consisting of four key dimensions: **Message**, **Scene**, **Character**, and **Plot**, which effectively characterize infographic animation patterns. Based on this design space, we propose **InfoDirector**, an interactive system for generating infographic chart animations conditioned on input text. To support accurate element parsing, we further annotated **2,827 infographic charts** and fine-tuned a pretrained detection model, achieving **state-of-the-art performance**. Finally, a comprehensive user study involving **60 participants** demonstrates that our approach significantly outperforms baseline methods in terms of **data comprehension**, **expressiveness**, and **visual attractiveness**.
 
 ## ✨ Key Contributions
 
@@ -51,4 +41,4 @@ Finally, a comprehensive user study involving **60 participants** demonstrates t
 
 This project is currently under active development.
 
-The source code, demo system, and dataset will be publicly released upon publication.
+The source code, demo system, and dataset will be released soon.
